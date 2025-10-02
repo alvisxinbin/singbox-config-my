@@ -100,6 +100,13 @@
   },
   "inbounds": [
     {
+      "tag": "dns-in",
+      "type": "direct",
+      "listen": "::",
+      "listen_port": 53,
+      "network": "udp"
+    },
+    {
       "tag": "tun-in",
       "type": "tun",
       "address": [
